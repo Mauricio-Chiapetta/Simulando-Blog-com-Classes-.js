@@ -10,7 +10,6 @@ class Author {
         const post = new Post(title, body, this.name, this.posts)
         this.posts.push(post)
         return post
-
     }
 }
 
